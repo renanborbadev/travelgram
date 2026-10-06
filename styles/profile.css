@@ -28,6 +28,14 @@ header .container {
   margin-bottom: 8px;
 }
 
+.profile-info img {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+
+  border-radius: 50%;
+}
+
 .profile-stats {
   list-style: none;
 
