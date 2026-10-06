@@ -1,0 +1,41 @@
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 32px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+ 
+  width: 384px;
+
+  h3 {
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+  }
+}
+
+.profile-stats {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  
+  li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    line-height: 0;
+  }
+}
